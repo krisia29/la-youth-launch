@@ -70,8 +70,18 @@ function HomePage() {
               tech, and more — all across LA County.
             </p>
 
-            {/* SEARCH */}
-            <div className="mt-7 flex items-center gap-2 rounded-full border border-border bg-card p-2 shadow-glow sm:max-w-md">
+            <div className="mt-7 overflow-hidden rounded-3xl border border-border bg-card shadow-glow">
+              <img
+                src={heroImg}
+                alt="Diverse group of young Angelenos smiling together with the LA skyline and palm trees at golden hour"
+                width={1536}
+                height={1024}
+                fetchPriority="high"
+                className="h-64 w-full object-cover sm:h-72"
+              />
+            </div>
+
+            <div className="mt-6 flex items-center gap-2 rounded-full border border-border bg-card p-2 shadow-glow sm:max-w-md">
               <Search className="ml-3 h-5 w-5 text-muted-foreground" />
               <input
                 type="search"
