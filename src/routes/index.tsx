@@ -51,18 +51,7 @@ function HomePage() {
 
       {/* HERO */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 -z-10">
-          <img
-            src={heroImg}
-            alt="Diverse group of young Angelenos smiling together with the LA skyline and palm trees at golden hour"
-            width={1536}
-            height={1024}
-            fetchPriority="high"
-            className="h-full w-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-white/70 via-white/30 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background" />
-        </div>
+        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background via-background/95 to-background" />
 
         <div className="mx-auto max-w-6xl px-4 pt-14 pb-20 sm:pt-20 sm:pb-28">
           <div className="max-w-2xl animate-fade-up">
