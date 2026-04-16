@@ -54,12 +54,14 @@ function HomePage() {
         <div className="absolute inset-0 -z-10">
           <img
             src={heroImg}
-            alt=""
+            alt="Diverse group of young Angelenos smiling together with the LA skyline and palm trees at golden hour"
             width={1536}
             height={1024}
-            className="h-full w-full object-cover opacity-90"
+            fetchPriority="high"
+            className="h-full w-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/10 via-background/40 to-background" />
+          <div className="absolute inset-0 bg-gradient-to-r from-background/85 via-background/60 to-background/20" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background" />
         </div>
 
         <div className="mx-auto max-w-6xl px-4 pt-14 pb-20 sm:pt-20 sm:pb-28">
