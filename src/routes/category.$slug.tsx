@@ -2,7 +2,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
 import { SiteHeader, SiteFooter } from "@/components/SiteHeader";
 import { ResourceCard } from "@/components/ResourceCard";
-import { getCategory } from "@/data/resources";
+import { getCategory, type Resource } from "@/data/resources";
 
 export const Route = createFileRoute("/category/$slug")({
   loader: ({ params }) => {
@@ -83,7 +83,7 @@ function CategoryPage() {
           {category.resources.length} resources · Tap a phone number to call.
         </p>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          {category.resources.map((r) => (
+          {category.resources.map((r: Resource) => (
             <ResourceCard key={r.name} resource={r} />
           ))}
         </div>
