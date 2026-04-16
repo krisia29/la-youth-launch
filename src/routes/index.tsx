@@ -60,7 +60,7 @@ function HomePage() {
             fetchPriority="high"
             className="h-full w-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-background/85 via-background/60 to-background/20" />
+          <div className="absolute inset-0 bg-gradient-to-r from-white/70 via-white/30 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background" />
         </div>
 
