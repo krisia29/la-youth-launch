@@ -29,14 +29,16 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "LA Youth Resource Page" },
+      { name: "description", content: "LA Youth Launchpad connects young people to career opportunities and essential resources." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "LA Youth Resource Page" },
+      { property: "og:description", content: "LA Youth Launchpad connects young people to career opportunities and essential resources." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "LA Youth Resource Page" },
+      { name: "twitter:description", content: "LA Youth Launchpad connects young people to career opportunities and essential resources." },
     ],
     links: [
       {
